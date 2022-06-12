@@ -10,6 +10,8 @@ const PricePage = (props) => {
     console.log(symbol);
 
     // use stock symbol to select from out array 
+    // filter will create a new array containing our desired stock
+    
     const stock = stocks.filter( ele => ele.symbol === symbol)[0];
     console.log(stock);
 
